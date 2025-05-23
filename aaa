@@ -12,7 +12,7 @@
   <script>
     const client_id = "1648664071259189248.eec88a0a57541648e516b4c05af34308e80a14ac07baed118e678c6c989b980e";
     const client_secret = "5f49beb909a4cc679412a9421c06bff3bfd210c57dbe84095ac3c079c7b72c7d";
-    const redirect_uri = "https://{GitHub사용자명}.github.io/{저장소명}/";
+    const redirect_uri = "https://j850704.github.io/twitcasting-oauth/";
     const auth_url = `https://apiv2.twitcasting.tv/oauth2/authorize?response_type=code&client_id=${client_id}&redirect_uri=${encodeURIComponent(redirect_uri)}`;
 
     document.getElementById("authBtn").onclick = () => {
